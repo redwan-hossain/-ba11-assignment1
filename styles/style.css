@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{margin: 0; padding: 0;}
+
+  body, main{
+    width: 1200px;
+    margin: 0 auto;
+
+  }
+
+  section{
+    margin-top: 50px;
+  }
+
+  .praimary-btn{
+    background-color: #006A50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 202px;
+  }
+
+  .contain-space{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  /* nmav styles */
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-btn{
+    border: 1px solid #006A50 ;
+    padding: 10px;
+    color: #006A50;
+  }
+
+  /* hero styles */
+
+  .hero-div{
+    background-color: #C6E4D6;
+    margin-top: 70px;
+    border-radius: 24px;
+  }
+  .hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .hero-left p {
+    color: rgba(14, 14, 14, 0.5)
+  }
+
+  .hero-left h2{
+    font-weight: bold;
+    font-size: 56px;
+  }
+
+  /* pillar styles */
+  
+  .pillar-section h2{
+    padding: 60px 0px;
+    font-weight: bold;
+  }
+
+  .pillar-container{
+    padding: 5px;
+    gap: 10px;
+     background-color: #efebeb;
+   
+  }
+
+  .pillar-container .pillar{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    max-width: 302px;
+    max-height: 244px;
+    padding: 30px;
+  
+  }
+
+.pillar h3, p{
+    font-size: bold;
+    color: #0E0E0E;
+    margin: 10px 0px;
+}
+
+/* vision section */
+
+.card{
+    background-color: #C6E4D6;
+    max-width: 410px;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.card h3{
+    margin: 15px 0px;
+}
+
+.card p {
+    color: #0E0E0E;
+}
+
+.color-change-card {
+    background-color: #F7EBCF;
+}
+
+.vision-btn{
+    background-color: #5490F5;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-top: 8px;
+}
+
+.one-btn{
+    background-color: #09A15C;
+}
+
+.last-btn{
+    background-color: #FFC239;
+}
+
+/* unique-section style */
+
+.unique-section{
+    background-color: #FFFFFF;
+    border: 1px solid rgb(235, 230, 230);
+    border-radius: 5px;
+}
+
+/* opinion-section */
+
+.opinion-title{
+    background-color: red;
+}
+
+.opinion-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
