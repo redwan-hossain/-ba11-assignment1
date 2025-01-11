@@ -4,95 +4,102 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  *{margin: 0; padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
 
-  body, main{
+body,
+main {
     width: 1200px;
     margin: 0 auto;
 
-  }
+}
 
-  section{
+section {
     margin-top: 50px;
-  }
+}
 
-  .praimary-btn{
+.praimary-btn {
     background-color: #006A50;
     color: white;
     padding: 15px;
     border: none;
     border-radius: 8px;
     font-weight: 202px;
-  }
+}
 
-  .contain-space{
+.contain-space {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-  }
-  /* nmav styles */
-  nav{
+}
+
+/* nmav styles */
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+}
 
-  .nav-btn{
-    border: 1px solid #006A50 ;
+.nav-btn {
+    border: 1px solid #006A50;
     padding: 10px;
     color: #006A50;
-  }
+}
 
-  /* hero styles */
+/* hero styles */
 
-  .hero-div{
+.hero-div {
     background-color: #C6E4D6;
     margin-top: 70px;
     border-radius: 24px;
-  }
-  .hero-container{
+}
+
+.hero-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
-  }
+}
 
-  .hero-left p {
+.hero-left p {
     color: rgba(14, 14, 14, 0.5)
-  }
+}
 
-  .hero-left h2{
+.hero-left h2 {
     font-weight: bold;
     font-size: 56px;
-  }
+}
 
-  /* pillar styles */
-  
-  .pillar-section h2{
+/* pillar styles */
+
+.pillar-section h2 {
     padding: 60px 0px;
     font-weight: bold;
-  }
+}
 
-  .pillar-container{
+.pillar-container {
     padding: 5px;
     gap: 10px;
-     background-color: #efebeb;
-   
-  }
+    background-color: #efebeb;
 
-  .pillar-container .pillar{
+}
+
+.pillar-container .pillar {
     background-color: #FFFFFF;
     border-radius: 16px;
     max-width: 302px;
     max-height: 244px;
     padding: 30px;
-  
-  }
 
-.pillar h3, p{
+}
+
+.pillar h3,
+p {
     font-size: bold;
     color: #0E0E0E;
     margin: 10px 0px;
@@ -100,14 +107,14 @@
 
 /* vision section */
 
-.card{
+.card {
     background-color: #C6E4D6;
     max-width: 410px;
     padding: 40px 20px;
     border-radius: 10px;
 }
 
-.card h3{
+.card h3 {
     margin: 15px 0px;
 }
 
@@ -119,7 +126,7 @@
     background-color: #F7EBCF;
 }
 
-.vision-btn{
+.vision-btn {
     background-color: #5490F5;
     color: white;
     border: none;
@@ -128,17 +135,17 @@
     margin-top: 8px;
 }
 
-.one-btn{
+.one-btn {
     background-color: #09A15C;
 }
 
-.last-btn{
+.last-btn {
     background-color: #FFC239;
 }
 
 /* unique-section style */
 
-.unique-section{
+.unique-section {
     background-color: #FFFFFF;
     border: 1px solid rgb(235, 230, 230);
     border-radius: 5px;
@@ -146,12 +153,63 @@
 
 /* opinion-section */
 
-.opinion-title{
-    background-color: red;
+.opinion-section {
+    margin-top: 70px;
 }
 
-.opinion-title{
+.opinion-section h2 {
+    margin-bottom: 40px;
+}
+
+.opinion-title {
+    background-color: #C6E4D6;
+    padding: 20px;
+}
+
+.opinion-title,
+.question-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.question-div {
+    margin: 30px 0px;
+}
+
+.question-div-right button {
+    background-color: #C6E4D6;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+/* news-container style */
+
+.news-container-div {
+    max-width: 1100;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+
+.news-container-left {
+    width: 50%;
+}
+
+.news-container-left img {
+    border-radius: 20px;
+}
+
+.news-container-right {
+    width: 50%;
+}
+
+.zaajira-subtitle span{
+    color: #0E0E0E;
+}
+
+/* donate-section styles */
+
+.donate-section{
+    text-align: center;
 }
